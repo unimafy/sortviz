@@ -8,8 +8,8 @@ function getRandomInt(min, max) {
 
 function ColumnGenerator() {
   const columns = [];
-  for (let i = 0; i < 50; i++) {
-    const element = React.createElement("div", { key: i, className: "column", style: { height: getRandomInt(10, 400), "border-style": "groove"} });
+  for (let i = 0; i < 93; i++) {
+    const element = React.createElement("div", { key: i, className: "column", style: { height: getRandomInt(10, 600), "border-style": "groove", width: "10px"} });
     columns.push(element);
   }
 

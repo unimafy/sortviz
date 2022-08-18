@@ -1,11 +1,11 @@
 .container {
   background-color: cadetblue;
-  padding-left: 300px;
+  padding-left: 100px;
 }
 
 .column {
   background-color: orchid;
-  width: 15px;
-  height: 400px;
   display: inline-block; 
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
